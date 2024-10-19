@@ -1,6 +1,5 @@
 import React from "react";
 import "./Header.css"; // Ensure this is included
-import aniketSingh from "../Images/aniketSingh.jpeg";
 
 const Header = () => {
   return (
