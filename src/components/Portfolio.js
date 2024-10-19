@@ -1,34 +1,33 @@
 import React from "react";
-import "./Portfolio.css"; // We'll add this later
-import catalystImage from '../Images/catalyst.jpeg'
-import zoraverse from '../Images/zoraverse.jpeg'
+import "./Portfolio.css"; // Make sure to style your projects accordingly
 
 const Portfolio = () => {
   const projects = [
     {
-      title: "Zuraverse - Community Moderator",
-      description: `As a Community Moderator for Zuraverse, a dynamic platform dedicated to building the future of decentralized gaming and virtual environments, I played a key role in fostering an engaging and inclusive community. My responsibilities included:
-
-Managing community discussions across various platforms, ensuring a positive and collaborative environment.
-Moderating user interactions to maintain a safe and respectful community atmosphere.
-Addressing community concerns, providing real-time support, and relaying feedback to the development team.
-Assisting in promoting events, new features, and platform updates to drive engagement and participation.
-Helping the team grow and maintain the community by interacting with users, answering questions, and keeping the dialogue constructive.`,
-      image: zoraverse,
+      title: "Personal Portfolio Website",
+      description: `Built a personal portfolio website using HTML, CSS, and JavaScript to showcase my projects, skills, and experience. The site features a responsive design and smooth scrolling for easy navigation.`,
+      image: "https://via.placeholder.com/150", // Dummy image
     },
     {
-      title: "Catalyst INJ - Community Moderator",
-      description: `At Catalyst INJ, a cutting-edge decentralized finance (DeFi) protocol leveraging the Injective blockchain, I contributed as a Community Moderator by:
-
-Facilitating discussions within the community, providing technical and non-technical support.
-Ensuring that community members were well-informed about protocol updates, new initiatives, and governance processes.
-Resolving disputes and addressing concerns, ensuring that the community remained aligned with Catalyst INJ's values.
-Supporting engagement strategies to keep users informed about upcoming launches, partnerships, and governance proposals.
-Coordinating with the core team to relay community feedback and provide insights for improving user experience.
-`,
-      image: catalystImage,
+      title: "Task Tracker App",
+      description: `Developed a Task Tracker using React JS and JavaScript. The app allows users to add, remove, and filter tasks with an intuitive user interface. The project demonstrates state management with React.`,
+      image: "https://via.placeholder.com/150", // Dummy image
     },
-    // Add more projects as needed
+    {
+      title: "Weather Dashboard",
+      description: `Created a Python-based Weather Dashboard that fetches real-time weather data using the OpenWeatherMap API. The dashboard includes search functionality and displays the current weather, temperature, and forecast.`,
+      image: "https://via.placeholder.com/150", // Dummy image
+    },
+    {
+      title: "Student Database Management System",
+      description: `Built a Student Database Management System using Java and MySQL. The system allows users to add, update, and delete student records. It supports basic CRUD operations and demonstrates database connectivity.`,
+      image: "https://via.placeholder.com/150", // Dummy image
+    },
+    {
+      title: "Excel Automation Tool",
+      description: `Developed an Excel Automation Tool using Python and the pandas library to automate data processing tasks. The tool helps users clean, organize, and analyze large Excel datasets with just a few clicks.`,
+      image: "https://via.placeholder.com/150", // Dummy image
+    },
   ];
 
   return (

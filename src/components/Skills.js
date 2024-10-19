@@ -1,13 +1,18 @@
 import React from 'react';
-import './Skills.css'; // We'll add this later
+import './Skills.css';
 
 const Skills = () => {
   const skills = [
-    { name: 'Web3 Technologies', level: 'Expert' },
-    { name: 'Amazon Web Services (AWS)', level: 'Intermediate' },
-    { name: 'Project Management', level: 'Intermediate' },
-    { name: 'AWS DevOps Engineer', level: 'Intermediate' },
-    { name: 'Operations Management', level: 'Beginner' }
+    { name: 'HTML', level: 'Expert' },
+    { name: 'CSS', level: 'Intermediate' },
+    { name: 'JavaScript', level: 'Intermediate' },
+    { name: 'React JS', level: 'Intermediate' },
+    { name: 'Python', level: 'Intermediate' },
+    { name: 'MySQL', level: 'Beginner' },
+    { name: 'MS Excel', level: 'Intermediate' },
+    { name: 'Java', level: 'Beginner' },
+    { name: 'C++', level: 'Beginner' },
+    { name: 'C', level: 'Beginner' }
   ];
 
   return (

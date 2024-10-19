@@ -15,7 +15,24 @@ const WorkExperience = () => {
       dates: 'Jun 2022 - Dec 2022',
       description: 'Assisted in the development of internal tools and applications. Worked closely with senior developers to troubleshoot and resolve issues, and contributed to the improvement of software performance and scalability.'
     },
-    // Add more experiences as needed
+    {
+      company: 'NextGen Solutions',
+      position: 'Junior Frontend Developer',
+      dates: 'Feb 2021 - May 2022',
+      description: 'Worked on enhancing the user interface of various client projects using HTML, CSS, and JavaScript. Collaborated with designers and backend developers to deliver responsive and visually appealing websites.'
+    },
+    {
+      company: 'Global Tech Partners',
+      position: 'Data Analyst Intern',
+      dates: 'Jul 2020 - Jan 2021',
+      description: 'Analyzed and interpreted large datasets to provide actionable insights to the marketing and product development teams. Developed automated reporting tools using Python and Excel, improving operational efficiency.'
+    },
+    {
+      company: 'Bright Future IT Solutions',
+      position: 'IT Support Technician',
+      dates: 'Sep 2019 - Jun 2020',
+      description: 'Provided IT support for both hardware and software issues across the organization. Assisted with network setup, resolved technical issues, and conducted software installations and troubleshooting.'
+    }
   ];
 
   return (

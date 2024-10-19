@@ -8,17 +8,17 @@ const Header = () => {
       <div className="header-container">
         <div className="profile-picture">
           {/* Replace with a real image of Aniket Singh */}
-          <img src={aniketSingh} alt="Aniket Singh" />
+          <img src={""} alt="Raushan Sinha" />
         </div>
         <div className="header-details">
-          <h1 className="name">Aniket Singh</h1>
-          <p className="age">Age: 23</p>
+          <h1 className="name">Raushan Sinha</h1>
+          <p className="age">Age: 20</p>
           <p className="tagline">
-            Developer Relations (DevRel) Professional at Zuraverse
+            Full Stack Developer
           </p>
           <div className="contact-info">
-            <p>Email: aniketsingh1845@gmail.com</p>
-            <p>LinkedIn: linkedin.com/in/aniket-singh-8b2281261</p>
+            <p>Email: raushansinha@gmail.com</p>
+            {/* <p>LinkedIn: linkedin.com/in/aniket-singh-8b2281261</p> */}
           </div>
         </div>
       </div>
