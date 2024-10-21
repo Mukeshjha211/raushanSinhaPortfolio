@@ -66,8 +66,8 @@ const Contact = () => {
         <button type="submit">Send Message</button>
       </form>
       <div className="contact-info">
-        <p>Email: <a href="mailto:aniket@example.com">raushanSinha@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/raushansiha" target="_blank" rel="noopener noreferrer">linkedin.com/in/raushansiha</a></p>
+        <p>Email: <a href="mailto:raushankrsinha2004@gmail.com">raushankrsinha2004@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/raushan-sinha-4b94452a1/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/raushan-sinha-4b94452a1/</a></p>
       </div>
     </section>
   );
